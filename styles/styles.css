@@ -1,22 +1,23 @@
-
-.page-header .header-top {
+.header-top {
     background-color: #f72210;
     height: 95px;
     padding: 20px 10px 15px;
     width: 100%;
-    display: inline-block;
 }
-.page-header {
-    display:flex;
+date {
+    margin: 0, 0, 0, 20px;
+    color: white;
+    font: 16px
+}
+#logo{
+    width: 380px;
+}
+.header-bottom{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: #070707
 }
 
-date{
-margin: 0,0,0,20px;
-color: white;
-font: 16px
-}
-.navbar{
-    color: salmon;
-    display:inline-flex;
-    list-style: none;
-}
