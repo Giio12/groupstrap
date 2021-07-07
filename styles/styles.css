@@ -1,23 +1,172 @@
+
+@media screen and (min-width: 992px) {
+   
+    body {
+        padding-right: 250px;
+        padding-left: 250px;
+        background-color: white;
+    
+    }
+    
+    .header-top {
+        background-color: #f72210;
+        height: 95px;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    #date {
+        padding: 30px;
+        color: white;
+        font: 16px,
+    }
+    
+    #logo {
+        width: 390px;
+    }
+    
+    #button-nav {
+        padding: 20px;
+        padding-left: 100px;
+        position: relative;
+    }
+    
+    #button-login {
+        color: white;
+        font-weight: bold;
+    }
+    
+    #button-susbribe {
+        background-color: rgb(247, 231, 12);
+        border-style: none;
+        border-radius: 15px;
+        font-weight: bold;
+    
+    }
+    
+    
+    .navbar-items-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        color: #070707;
+        margin: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-color: rgb(224, 222, 222);
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+    .navbar-second-list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        color: #070707;
+        margin: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-color: rgb(207, 206, 206);
+        padding-left: 20px;
+        font-size: 17px;
+        padding-right: 250px;
+    }
+    
+    .separador {
+        color: gray;
+        font-weight: lighter;
+    }
+    
+    .navbar-items-list li:hover {
+        color: #f72210;
+    }
+    
+    .navbar-items-list li {
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    
+    .form-1 {
+        width: 75px;
+        /*Tamaño de buscador*/
+        border-style: none;
+    }
+    
+    
+    #first-list {
+        color: black;
+    }
+    
+    .navbar-second-list li {
+        color: rgb(121, 126, 121);
+        font-weight: bold;
+    }
+    
+    .navbar-second-list li:hover {
+        color: #f72210;
+    }
+    
+    h6 {
+        color: lightgray;
+    }
+    
+    #card-debate img {
+        width: 90px;
+        float: left;
+    }
+    
+    #card-debate {
+        display: inline-block;
+        border: none;
+        border-top: rgb(184, 180, 180) solid;
+        border-bottom: rgb(194, 190, 190) 3px double;
+        font-size: 10px;
+    }
+    #card-debate h5{
+        font-size: 17px;
+    }
+    
+    .news {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #card-vs img {
+        width: 90px;
+        float: left;
+    }
+    
+    #card-vs {
+        display: inline-block;
+        border: none;
+        border-bottom: rgb(194, 190, 190) 3px solid;
+    }
+    
+    #card-vs h1{
+        width: 32px;
+        height:32px;
+        font-size:14px;
+        background:rgb(22, 22, 22);
+        color: rgb(180, 174, 174);
+        border-radius: 50%;
+        text-align:center;
+        margin: -16px auto;
+        padding-top: 8px;
+      
+    }
+}
+body {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: white;
+    width: 100%;
+
+}
 .header-top {
     background-color: #f72210;
     height: 95px;
-    padding: 20px 10px 15px;
+    padding: 0px;
     width: 100%;
 }
-date {
-    margin: 0, 0, 0, 20px;
-    color: white;
-    font: 16px
-}
-#logo{
-    width: 380px;
-}
-.header-bottom{
-    font-size: 14px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    color: #070707
-}
-
